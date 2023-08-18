@@ -1,0 +1,14 @@
+{
+  "Nickname": "ApothecaryAutoPatcher",
+  "Visibility": "Visible",
+  "OneLineDescription": "Patches mod-added ingredients to match Apothecary",
+  "LongDescription": "",
+  "PreferredAutoVersioning": "Default",
+  "RequiredMods": [],
+  "TargetedReleases": [
+    "SkyrimLE",
+    "SkyrimSE",
+    "SkyrimVR",
+    "SkyrimSEGog"
+  ]
+}
