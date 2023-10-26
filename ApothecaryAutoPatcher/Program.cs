@@ -67,6 +67,9 @@ namespace ApothecaryAutoPatcher
             new(Skyrim.MagicEffect.AlchDamageSpeed, 3.33f, 60), //MAG_AlchBurden
             new(Skyrim.MagicEffect.AlchInfluenceConfDown, 3.33f, 30),
             new(Skyrim.MagicEffect.AlchInfluenceAggUp, 3.33f, 30),
+            new(FormKey.Factory("000812:ccBGSSSE037-Curios.esl").ToLink<IMagicEffectGetter>(), 1.67f, 60), //ccBGSSSE037_AlchAbsorbSpell
+            new(FormKey.Factory("000846:ccBGSSSE037-Curios.esl").ToLink<IMagicEffectGetter>(), 0f, 4), //ccBGSSSE037_AlchLight
+            new(FormKey.Factory("000803:ccBGSSSE037-Curios.esl").ToLink<IMagicEffectGetter>(), 0f, 4), //ccBGSSSE037_AlchNightEye
         };
 
         public List<FormLink<IIngredientGetter>> Blacklist = new()
